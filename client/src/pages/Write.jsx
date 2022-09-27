@@ -1,6 +1,4 @@
 const Write = () => {
-  return (
-    <div>Write</div>
-  )
-}
-export default Write
+  return <div>Write</div>;
+};
+export default Write;

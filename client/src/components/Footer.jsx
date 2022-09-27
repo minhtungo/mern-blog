@@ -1,6 +1,11 @@
+import Logo from '../img/logo.png';
+
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
-export default Footer
+    <footer>
+      <img src={Logo} alt='logo' />
+      <span>Minh Tu Ngo</span>
+    </footer>
+  );
+};
+export default Footer;
